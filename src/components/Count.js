@@ -36,7 +36,7 @@ const Count = props => {
   return (
     <div className="Count">
       <h3>
-        <i>{count} Meters (Reward at 500)</i>
+        <i>{count} Meters <br/> (Reward at 500)</i>
       </h3>
     </div>
   );

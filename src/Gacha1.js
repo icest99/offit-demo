@@ -29,7 +29,7 @@ export default function Gacha1() {
 
     return (
         <div class="absolute w-screen h-screen max-h-screen flex flex-col">
-            <div class="rounded-b-lg pb-5 pt-5 " style={{backgroundColor:"#F5F5FF"}}>
+            <div class="rounded-b-lg py-2 " style={{backgroundColor:"#F5F5FF"}}>
                     <ul class="flex justify-between">
                         <li class="mr-2">
                             <Link class="inline-block rounded" to="/">
@@ -44,19 +44,19 @@ export default function Gacha1() {
                     </ul>
                 </div>
 
-            <div class="flex h-1/6 w-5/6 bg-yellow-1 rounded-r-3xl h-10">
+            <div class="shadow-md flex h-1/6 w-5/6 bg-yellow-1 rounded-r-3xl h-10">
                 <h1 class="self-center text-4xl text-white ml-10">
                     Gacha <br/> Adventure
                 </h1>
             </div>
 
-            <div class="absolute h-28 w-28 flex m-auto rounded-full top-1/3 left-2/3 bg-green-1">
-            <p class="text-6xl text-white m-auto font-bold"> {count} </p>
+            <div class="shadow-md absolute h-20 w-20 flex m-auto rounded-full top-1/3 left-2/3 bg-green-1">
+            <p class="text-5xl text-white m-auto font-bold"> {count} </p>
             </div>
 
             {/* avatar */}
             <div class="flex justify-center mt-20 delay-1000 transition transform opacity-100">
-                <img class="h-auto" src=".\image\avatar.png"></img>
+                <img class=" h-40" src=".\image\avatar.png"></img>
             </div>
             
 

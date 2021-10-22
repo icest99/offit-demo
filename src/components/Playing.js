@@ -8,7 +8,7 @@ function Playing(props) {
       <div className="Playing" class="flex flex-col">
 
         <div class="modal" id="modal-one" aria-hidden="true">
-            <div class="modal-dialog ">
+            <div class="modal-dialog">
             
                 <div class="modal-header bg-yellow-2">
                     <h2 class="text-3xl">Congratulation!</h2>
@@ -26,7 +26,7 @@ function Playing(props) {
             </div>
         </div>
 
-        <div class="mx-auto text-4xl ">
+        <div class="mx-auto text-2xl text-center">
                 <TestCount/>
             </div>
         <button class=" bg-red-1 mx-auto mt-10 text-white text-2xl font-bold py-4 px-10 rounded-2xl" onClick={ () => props.handleClick('start')}>End the game</button>

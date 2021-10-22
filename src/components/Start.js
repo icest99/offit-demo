@@ -7,7 +7,7 @@ function Start(props) {
                 <p class="mx-auto my-auto">Start</p>
             </Link> */}
 
-        <button class="button bg-red-1 mx-auto mt-20 text-white text-2xl font-bold py-4 px-10 rounded-2xl" onClick={ () => props.handleClick('playing')}>Start Game</button>
+        <button class="shadow-md button bg-red-1 mx-auto mt-20 text-white text-2xl font-bold py-4 px-10 rounded-2xl" onClick={ () => props.handleClick('playing')}>Start Game</button>
       </div>
     )
   }

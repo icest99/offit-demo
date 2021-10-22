@@ -6,7 +6,7 @@ export default function HomeNav() {
     return (
         <div class="w-full h-screen">
 
-            <div class="rounded-b-lg pb-5 pt-5" style={{backgroundColor:"#F5F5FF"}}>
+            <div class="rounded-b-lg py-2" style={{backgroundColor:"#F5F5FF"}}>
                 <ul class="flex justify-between">
                     <li class="mr-2">
                         <ul class="flex justify-between ml-10">
@@ -36,7 +36,7 @@ export default function HomeNav() {
             </div>
 
             {/* header */}
-            <div class="flex h-1/4 w-5/6 bg-yellow-1 rounded-r-3xl">
+            <div class="flex h-1/4 w-5/6 bg-yellow-1 rounded-r-3xl shadow-md">
                     <h1 class="self-center text-6xl text-white ml-10 my-auto">
                         Hello A!
                     </h1>
@@ -44,20 +44,20 @@ export default function HomeNav() {
 
             
             {/* checklist icon */}
-            <div class="absolute right-28">
+            <div class="absolute right-16 top-80">
                 <Link to="Checklist">
-                    <img src=".\image\checkup-icon.png"></img>
+                    <img class="h-20" src=".\image\checkup-icon.png"></img>
                 </Link>
             </div>
 
             {/* avatar */}
-            <div class="flex justify-center py-10 my-auto">
-                <img class="h-auto" src=".\image\avatar.png"></img>
+            <div class="flex">
+                <img class="h-40 m-auto my-20" src=".\image\avatar.png"></img>
             </div>
 
 
             {/* Bottom Menu */}
-            <section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 z-10 bg-white shadow">
+            <section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 shadow">
                     <div id="tabs" class="flex justify-center mb-5">
                         <Link to="ExerciseHome" class="inline-block mr-3">
                             <img class="max-h-48" src=".\image\home-bot1.png"></img>

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default function Ranking() {
     return (
         <div class="absolute w-screen h-full flex flex-col">
-            <div class="rounded-b-lg pb-5 pt-5" style={{ backgroundColor: "#F5F5FF" }}>
+            <div class="rounded-b-lg py-2" style={{ backgroundColor: "#F5F5FF" }}>
                 <ul class="flex justify-between">
                     <li class="mr-2">
                         <Link class="inline-block rounded" to="/">
