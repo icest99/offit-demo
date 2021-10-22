@@ -36,7 +36,8 @@ export default function HomeNav() {
             </div>
 
             {/* header */}
-            <div class="flex h-1/4 w-5/6 bg-yellow-1 rounded-r-3xl shadow-md">
+            <div>
+            <div class="flex py-12 w-5/6 bg-yellow-1 rounded-r-3xl shadow-md">
                     <h1 class="self-center text-6xl text-white ml-10 my-auto">
                         Hello A!
                     </h1>
@@ -44,20 +45,20 @@ export default function HomeNav() {
 
             
             {/* checklist icon */}
-            <div class="absolute right-16 top-80">
+            <div class="absolute right-16 top-72">
                 <Link to="Checklist">
                     <img class="h-20" src=".\image\checkup-icon.png"></img>
                 </Link>
             </div>
 
             {/* avatar */}
-            <div class="flex">
-                <img class="h-32 m-auto my-16" src=".\image\avatar.png"></img>
+            <div class="mt-16 mb-10">
+                <img class=" max-h-32 w-auto m-auto my-auto" src=".\image\avatar.png"></img>
             </div>
 
 
             {/* Bottom Menu */}
-            <section id="bottom-navigation" class="absolute my-auto bottom-0 -inset-x-0 shadow">
+            <section id="bottom-navigation" class="absolute bottom-0 -inset-x-0 shadow">
                     <div id="tabs" class="flex justify-center mb-5">
                         <Link to="ExerciseHome" class="inline-block mr-3">
                             <img class=" max-h-32" src=".\image\home-bot1.png"></img>
@@ -70,6 +71,7 @@ export default function HomeNav() {
                         </Link>
                     </div>
                 </section>
+                </div>
 
             {/* <div class="flex justify-center max-h-10 absolute -bottom-full">
                 <a class="inline-block max-h-10" href="#">
