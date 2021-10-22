@@ -52,21 +52,21 @@ export default function HomeNav() {
 
             {/* avatar */}
             <div class="flex">
-                <img class="h-40 m-auto my-20" src=".\image\avatar.png"></img>
+                <img class="h-32 m-auto my-16" src=".\image\avatar.png"></img>
             </div>
 
 
             {/* Bottom Menu */}
-            <section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 shadow">
+            <section id="bottom-navigation" class="absolute my-auto bottom-0 -inset-x-0 shadow">
                     <div id="tabs" class="flex justify-center mb-5">
                         <Link to="ExerciseHome" class="inline-block mr-3">
-                            <img class="max-h-48" src=".\image\home-bot1.png"></img>
+                            <img class=" max-h-32" src=".\image\home-bot1.png"></img>
                         </Link>
                         <Link to="ConsultHome" class="inline-block mr-3">
-                            <img class="max-h-48" src=".\image\home-bot2.png"></img>
+                            <img class="max-h-32" src=".\image\home-bot2.png"></img>
                         </Link>
                         <Link to="ProgramHome" class="inline-block ">
-                            <img class="max-h-48" src=".\image\home-bot3.png"></img>
+                            <img class="max-h-32" src=".\image\home-bot3.png"></img>
                         </Link>
                     </div>
                 </section>
