@@ -16,7 +16,7 @@ export default function HomeNav() {
                                 </Link>
                             </li>
                             <li class="mr-2">
-                                <a class="inline-block border border-white rounded" href="#">
+                                <a class="inline-block" href="#">
                                     <img class= "h-16" src=".\image\home-icon2.png"></img>
                                 </a>
                             </li>
